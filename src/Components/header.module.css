@@ -1,0 +1,32 @@
+.header {
+  background: transparent;
+  height: 68px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+}
+
+.headerLogo {
+  max-width: 95px;
+}
+
+.menuItem {
+  font-size: 14px !important;
+  letter-spacing: 0;
+  cursor: pointer;
+  margin-right: 10px;
+  color:#e8e8e8
+}
+
+.menuItem:hover {
+  color:#a8a8a8
+
+}
+.activeMenuItem{
+  color: #fff;
+  font-weight: 600 !important;
+}
+.testingBorder {
+    border: 2px solid white;
+}
